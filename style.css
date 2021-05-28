@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Malgun Gothic';
+    background: lightgray;
+}
+
+.card {
+    width: 400px;
+    height: 750px;
+    display: inline-block;
+    margin-right: 40px;
+    box-shadow: 2px 4px 8px rgb(48, 47, 47);
+    background-color: #ffff;
+
+    
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card > .info {
+padding-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.link_btn {
+display: block;
+background: #1D1A7D;
+color: #ffff;
+padding: 8px;
+text-align: center;
+text-decoration: none;
+border-radius: 50px;
+font-size: 25px;
+}
+
+.link_btn:hover {
+  background: rgb(72, 118, 241);
+}
+
+section{
+  
+  width: 1292px;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-1292px / 2);
+  top: 50%;
+  margin-top: calc(-750px / 2);
+}
